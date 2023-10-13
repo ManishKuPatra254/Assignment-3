@@ -6,6 +6,7 @@ import { Herosection } from './Herosection/Herosection';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Home } from './Home/Home';
 import { Services } from './Services/Services';
+import { Footer } from './Footer/Footer';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/services' element={<Services />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
 
     </div>
