@@ -63,7 +63,6 @@ export function Footer() {
                     </div>
                 </div>
                 <div className="{style.footer_bottom}">
-                    <p>&copy; {new Date().getFullYear()} Cust Ts. Created By Manish All rights reserved.</p>
                 </div>
             </div>
         </footer>
